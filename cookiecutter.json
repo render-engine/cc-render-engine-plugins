@@ -9,13 +9,6 @@
     "post_render_content": true,
     "pre_build_collection": true,
     "post_build_collection": true,
-    "_copy_without_render": [
-        "static",
-        "content",
-        "templates/_base.html",
-        "templates/page.html",
-        "templates/archive.html"
-    ],
     "_jinja2_env_vars": {
         "lstrip_blocks": true,
         "trim_blocks": true
