@@ -1,7 +1,7 @@
 import typing
 from render_engine.plugins import hook_impl
 
-class {{cookiecutter.project_slug|capitalize}}:
+class {{cookiecutter.__plugin_name}}:
     default_settings: {"default_setting": "default_value"}
     
     {% if cookiecutter.pre_build_site %}

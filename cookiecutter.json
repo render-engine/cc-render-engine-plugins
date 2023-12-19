@@ -2,6 +2,7 @@
     "project_name": "Render Engine Plugin",
     "project_slug": "{{cookiecutter.project_name|lower|replace(' ', '_')|replace('-', '_')}}",
     "description": "A plugin for the Render Engine static site generator.",
+    "dependencies": "List of dependencies (comma separated)",
     "default_settings": "{\"default_setting\": \"default_value\"}",
     "pre_build_site": true,
     "post_build_site": true,
@@ -9,6 +10,7 @@
     "post_render_content": true,
     "pre_build_collection": true,
     "post_build_collection": true,
+    "__plugin_name": "class {{cookiecutter.project_slug|capitalize|replace('_', '')}}",
     "_jinja2_env_vars": {
         "lstrip_blocks": true,
         "trim_blocks": true
